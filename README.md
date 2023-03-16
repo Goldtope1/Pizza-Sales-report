@@ -1,6 +1,6 @@
 # Pizza sales Report (2015)
 
-
+![](Pixel2.jpg)
 
 ## INTRODUCTION
 
@@ -33,15 +33,18 @@ The following insights were asked to be derived from the dataset
 - Orders and Quantities sold by day of the week
 - Quantities sold by Pizza size
 
-
 ### DATA TRANSFORMATION AND CLEANING
 
 The Data was structured in Excel and transformed in the powerquery editor of powerBi. The merging query technique was used to consolidate all four tables into one single table.  This was done using the primary key and foreign keys in each table to join each other. This transformed the orders column from 3 columns to 9 columns.
 The data was saved and loaded into the visualization pane
 
+![](pizza_data_transformation.png)
+
 ### DATA visualization 
 
 I ensured the design and color applied to the report were visually appealing and did not distort user's focus from the insight got from the visuals
+
+![](pizza_sales_dashboard.png)
 
 The following questions were answered through visualization
 
@@ -49,15 +52,22 @@ The following questions were answered through visualization
 
 From this visual we can see that no one category is outrightly the preferred over thw other categories, the revenue is quite spread out by the categories 
 
+![](revenue_by_pizza_category.png)
+
 **Revenue by day of the week**
 
 The sales keep rising right from Monday straight up to Friday(probably the thanks God is Friday effect) being the peak of sales and declines on Saturday and further on Sunday
+
+![](revenue_by_day_of_week.png)
 
 **Total quantity sold by pizza size**
 
 The most sold quantity by size is the large size followed by the medium and then the small size, both the extra large and extra extra large are not really preferred by the customers
 
+![](total_quantity_sold_by_pizza.png)
+
 **Total Quantity sold and orders by days of the week**
 
 The total quantity sold and orders made by days of the weeks are in sync with each other, this shows that the delivery system is quite okay, only for a few orders not delivered and this can definitely be improved on.
 
+![](total_quantity_and_orders_by_day_of_week.png)

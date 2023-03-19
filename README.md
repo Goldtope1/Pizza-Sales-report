@@ -4,7 +4,7 @@
 
 ## INTRODUCTION
 
-The dataset was provided to run a complete pizza order inventory in 2015 and it was given to help make sense of the data and gain insights that can help move the company forward next year
+The dataset is a complete pizza order inventory in 2015 and it was provided to help make sense of the data and gain insights that can help move the company forward next year
 
 The dataset contains four sheets, orders, order_details, pizza and pizza_types
 
